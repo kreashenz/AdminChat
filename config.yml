@@ -1,0 +1,2 @@
+format: '&7[&6Admin Chat&7] &c{NAME} &6&l> &r&e{MESSAGE}'
+# This is the format of the chat message that will come up in admin chat.

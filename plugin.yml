@@ -1,0 +1,8 @@
+name: AdminChat
+main: me.kreashenz.adminchat.AdminChat
+version: 1.0
+description: Basic admin chat plugin
+commands:
+  adminchat:
+    description: Talk in adminchat.
+    aliases: [ac, achat]
