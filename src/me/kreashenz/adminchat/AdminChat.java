@@ -72,7 +72,7 @@ public class AdminChat extends JavaPlugin implements Listener {
 	private void sendAdmins(String msg){
 		msg = format(msg);
 		for(Player ps : getServer().getOnlinePlayers()){
-			if(ps.hasPermission("mcrp.adminchat")){
+			if(ps.hasPermission("adminchat.adminchat")){
 				ps.sendMessage(msg);
 			}
 		}
